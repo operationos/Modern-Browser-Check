@@ -3,6 +3,6 @@ Check for a modern browser.
 
 ## Changelog
 ### 0.0.1 - First Update
-GitHub repo made
-index.html for public use
-0.0.1 of Check
+[GitHub repo made](https://www.github.com/googloss/Modern-Browser-Check) | 
+[index.html for public use](https://4ptv4b.csb.app/modern_browser_check/index.html) |
+[check.html updated to v0.0.1](https://4ptv4b.csb.app/modern_browser_check/index.html)
