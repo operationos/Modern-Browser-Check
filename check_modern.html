@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Checking your browser...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* Styles for the page */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 50px;
+        text-align: center;
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+
+      h1 {
+        font-size: 32px;
+        margin-top: 0;
+      }
+
+      p {
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+
+      .redirect-link {
+        font-size: 24px;
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+
+      .redirect-link:hover {
+        color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Checking your browser</h1>
+      <p>
+        This page will automatically redirect in <strong>10</strong> seconds.
+      </p>
+      <!--[if lt IE 9
+        ]>Woops! It looks like you are not using a browser that works with
+        [COMPANYNAME]. Please upgrade your version of Chrome, Opera, Edge, or
+        Firefox, or whatever browser you use. Error code: [ERRORCODE]<!
+      [endif]-->
+      <!--[if gte IE 9]><!-->Your browser can run [COMPANYNAME] Code:
+      [ERRORCODE]<!--<![endif]--><br /><br />
+      <a class="redirect-link" href="https://www.example.com"
+        >Continue to [NEXTSITE]</a
+      >
+    </div>
+    <script>
+      // Redirect script
+      setTimeout(function () {
+        window.location.href = "https://www.example.com";
+      }, 10000);
+    </script>
+  </body>
+</html>
